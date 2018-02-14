@@ -24,6 +24,38 @@ div.container > div, div.container > div > div > div{
 }
 
 .red{
-    height: 30px;
+    height: 50px;
     background-color: #f00;
+}
+
+.a{
+    background-color: magenta;
+}
+
+.b{
+background-color: yellow;
+}
+
+.c{
+    background-color: green;
+}
+
+.d{
+    background-color: grey;
+}
+
+.e{
+    background-color: orange;
+}
+
+.f{
+    background-color: red;
+}
+
+.g{
+    background-color: blue;
+}
+
+body{
+    background-color: #111;
 }
