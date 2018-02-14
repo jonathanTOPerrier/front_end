@@ -1,0 +1,19 @@
+div.container > div, div.container > div > div > div{
+    border: 1px solid black;
+}
+
+
+.row > div{
+    border: solid 1px black;
+}
+.row{
+    border: 0px !important;
+    clear: both;
+}
+.container{
+    border: 0px;
+}
+
+#wrapper .container{
+    margin-bottom: 2em;
+}
