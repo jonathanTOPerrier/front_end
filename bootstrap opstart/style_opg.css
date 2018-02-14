@@ -17,3 +17,13 @@ div.container > div, div.container > div > div > div{
 #wrapper .container{
     margin-bottom: 2em;
 }
+
+.white{
+    height: 100px;
+    border: 0px !important;
+}
+
+.red{
+    height: 30px;
+    background-color: #f00;
+}
