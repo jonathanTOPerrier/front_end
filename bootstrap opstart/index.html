@@ -110,7 +110,7 @@
         <h1>opgave4 (samme højde)</h1>
         <div class="container" id="opgave4">
 
-            <div class="col-md-2 col1-xs-12">
+            <div class="col-md-2 col-xs-12">
                 <div class="row">
                     <div class="col-xs-12 a">a</div>
 
@@ -285,36 +285,7 @@
                 window.addEventListener('resize', equalColmns, true);
 
 
-                var equalColmns1 = () => {
 
-                    var columns = document.querySelectorAll('.col1');
-
-
-                    var length = columns.length;
-                    var height = 0;
-
-                    for (let i = 0; i < length; i++) {
-
-                        columns[i].style.height = 'auto';
-
-                    }
-
-                    for (let i = 0; i < length; i++) {
-                        if (columns[i].clientHeight > height) {
-                            height = columns[i].clientHeight;
-                        }
-                    }
-
-                    for (let i = 0; i < length; i++) {
-
-                        columns[i].style.height = height + 'px';
-
-                    }
-
-                }
-
-                equalColmns();
-                window.addEventListener('resize', equalColmns1, true);
             </script>
 
 
